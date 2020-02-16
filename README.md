@@ -20,7 +20,7 @@ with the following parameters (see paper for details):
 *	`sigma` standard deviation of noise
 *	`maxiter_in` maximum number of iterations 
 
-**Credits**: The code for this experiment is from [B13], with some modifications.
+**Credits**: The code for this experiment is from [B16], with some modifications.
 
 ### Structured sparse learning experiment
 
@@ -39,15 +39,15 @@ with the following parameters (see paper for details):
 * `corr_level` correlation level of measurements (set to 0)
 * `maxiter` maximum number of iterations for PGM
 
-**Credits**: The implementation of PGM is a slightly modified version of the code from [B13]. 
-The code to compute rank-1 updates of the pseudo-inverse of a matrix is from [K20].
+**Credits**: The implementation of PGM is a slightly modified version of the code from [B16]. 
+The code to compute rank-1 updates of the pseudo-inverse of a matrix is from [K19].
 
 **Dependencies**: CVX [GB14] 
 
 ## References:
  
-* [B13] F. Bach. Submodular package, version 2.0. https://www.di.ens.fr/~fbach/submodular/, Oct. 2013.
-* [K20] Navvab Kashiri. Moore-Penrose Pseudo-Inverse Rank-1 Update, MATLAB Central File Exchange. https://www.mathworks.com/matlabcentral/fileexchange/61115-moore-penrose-pseudo-inverse-rank-1-update, retrieved April 2019.
+* [B16] F. Bach. Submodular package, version 2.0. https://www.di.ens.fr/~fbach/submodular/, retrieved Sept. 2016.
+* [K19] Navvab Kashiri. Moore-Penrose Pseudo-Inverse Rank-1 Update, MATLAB Central File Exchange. https://www.mathworks.com/matlabcentral/fileexchange/61115-moore-penrose-pseudo-inverse-rank-1-update, retrieved April 2019.
 * [GB14] M. Grant and S. Boyd. CVX: Matlab software for disciplined convex programming, version 2.1.
 http://cvxr.com/cvx/, Mar. 2014.
 
